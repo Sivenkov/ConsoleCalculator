@@ -9,7 +9,6 @@ import Foundation
 
 
 // MARK: enum with operation types
-
 enum Operations {
     case noAction
     case addition
@@ -20,7 +19,6 @@ enum Operations {
 
 
 // MARK: variables
-
 var isRunning = true
 var currentNumber = "0"
 var firstNumber = 0.0
@@ -30,7 +28,6 @@ var currentOperation = Operations.noAction
 
 
 // MARK: program points
-
 func runLoop() {
     while isRunning {
         start()
@@ -90,7 +87,6 @@ func finish() {
 
 
 // MARK: functions
-
 func updateDisplay(text: String) {
     print(text)
 }
